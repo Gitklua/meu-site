@@ -42,3 +42,24 @@ span { color: #38bdf8; } /* Cor azul destaque */
     width: 30%;
     text-align: center;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente */
+    padding: 20px 8%;
+    background: #1e293b;
+    border-bottom: 2px solid #38bdf8; /* Uma linha fina azul embaixo */
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.navbar a:hover {    color: #38bdf8;
+} 
+.btn-principal:hover {
+    background: #0ea5e9; /* Muda o tom do azul ao passar o mouse */
+    transform: scale(1.05); /* Dá uma leve aumentada */
+    transition: 0.3s;
+}
